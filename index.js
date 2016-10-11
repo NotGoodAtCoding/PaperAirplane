@@ -37,9 +37,9 @@
 					"8. Finally, fold your two top flaps downward to make the wings.",
 					"9. Proceed to throwing steps."
                 ]
-            }
+            },
 			{
-				"title": "Throwing Steps"",
+				"title": "Throwing Steps",
 				"image": "",
 				"body": [
 					"1. Locate the spot on the bottom of the paper airplane where the most layers overlap. This is the center of gravity.",

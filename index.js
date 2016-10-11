@@ -1,5 +1,23 @@
+//Elements are lazy-rendered into the page using immediately invoked functions
+// just a note: never do this ever. It's trash. I just didn't want to have to
+// get everyone setup with react or angular or something that requires npm.
+(function renderIntro() {
+    // Put introduction here
 
-(function render() {
+    var intro = "Hey look an intro";
+
+    document.getElementById('intro').innerHTML = "<div>" + intro + "</div>"
+})();
+
+(function renderIntro() {
+    // Put introduction here
+
+    var intro = "Hey look an intro";
+
+    document.getElementById('intro').innerHTML = "<div>" + intro + "</div>"
+})();
+
+(function renderSteps() {
 
     // Put steps here
 
@@ -25,6 +43,11 @@
         });
     });
     comp += "</div";
-    document.getElementById("example").innerHTML =
+    document.getElementById("steps").innerHTML =
         comp;
 })();
+
+
+function scrollerino(anchorID) {
+    document.getElementById(anchorID).scrollIntoView();
+}

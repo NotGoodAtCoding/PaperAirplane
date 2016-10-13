@@ -1,5 +1,5 @@
 body {
-    width: 100%;
+    max-width: 100%;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
     text-align: center;
     background-color: #333333;
@@ -16,6 +16,10 @@ button {
 
 p {
 
+}
+
+#container {
+    max-width: 100%;
 }
 
 #steps > div {

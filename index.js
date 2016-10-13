@@ -10,12 +10,12 @@
     document.getElementById('intro').innerHTML = "<div>" + intro + "</div>"
 })();
 
-(function renderIntro() {
+(function renderConclusion() {
 
     // Put introduction here
-    var intro = "Hey look an intro";
+    var conclusion = "Hey look an conclusion";
 
-    document.getElementById('intro').innerHTML = "<div>" + intro + "</div>"
+    document.getElementById('conclusion').innerHTML = "<div>" + conclusion + "</div>"
 })();
 
 (function renderSteps() {

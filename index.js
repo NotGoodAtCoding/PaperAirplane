@@ -5,15 +5,15 @@
 (function renderIntro() {
     // Put introduction here
 
-    var intro = "Hey look an intro";
+    var intro = "These instructions will guide you through the steps needed to create and fly a stunt paper airplane. Paper airplanes are a great way to pass the time. They can soar through the sky, be great for settling things with your rival, or even getting the kids to play outdoors! After following these steps, you will be soaring through the air!";
 
     document.getElementById('intro').innerHTML = "<div>" + intro + "</div>"
 })();
 
 (function renderConclusion() {
 
-    // Put introduction here
-    var conclusion = "Hey look an conclusion";
+    // Put conclusion here
+    var conclusion = "You are now ready to impress the world with your impeccable ability to create an amazing paper airplane that flies through the sky like a real airplane!";
 
     document.getElementById('conclusion').innerHTML = "<div>" + conclusion + "</div>"
 })();
@@ -27,6 +27,8 @@
                 "title": "Folding Steps",
                 "image": "",
                 "body": [
+			"You will need to obtain one piece of paper with equal length sides.",
+			"WARNING: When performing the folding steps, be careful of paper edge so as not to cut yourself.",
                     "1. Fold your paper in half, creating a crease down the middle vertically, then unfold. (Creating a crease makes future steps much simpler to perform since it can provide a reference point, as well as making future folds easier.)", 
 					"2. Now fold your paper in half horizontally to create a crease, then unfold.",
 					"3. Fold the left side end of your paper towards the middle vertical crease.",
@@ -42,6 +44,7 @@
 				"title": "Throwing Steps",
 				"image": "",
 				"body": [
+					"WARNING: When performing throwing steps, be careful of the direction of the plane. It could potentially hit someone, especially in the eye.",
 					"1. Locate the spot on the bottom of the paper airplane where the most layers overlap. This is the center of gravity.",
 					"2. Hold the airplane by pinching lightly at the center of gravity with your index finger and thumb.",
 					"3. Keeping it level, release the airplane with a gentle, steady push.",

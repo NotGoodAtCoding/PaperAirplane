@@ -8,22 +8,54 @@
 <body>
 <div id="container">
 
-<h1 id="title">Paper Airplane Instructions</h1>
-<button onclick="scrollerino('intro')">Go to Intro</button>
-<button onclick="scrollerino('intro')">Go to steps</button>
-<button onclick="scrollerino('intro')">Go to conclusion</button>
+    <h1 id="title">Paper Airplane Instructions</h1>
+    <a href="#intro"><button>Go to Intro</button></a>
+    <a href="#steps"><button>Go to steps</button></a>
+    <a href="#conclusion"><button>Go to conclusion</button></a>
 
-<div>
-    <img src="plane%5B1%5D.gif">
-    <img src="res/paperairplane1.png">
-    <div id="intro"></div>
-    <div id="steps"></div>
-    <div id="conclusion"></div>
-</div>
+    <div>
+        <img src="plane%5B1%5D.gif">
+        <img class="step-img" src="res/paperairplane1.png">
+        <div id="intro">
+            <div>These instructions will guide you through the steps needed to create and fly a stunt paper airplane. Paper airplanes are a great way to pass the time.
+                They can soar through the sky, be great for settling things with your rival, or even getting the kids to play outdoors! After following these steps, you will be soaring through the air!
+            </div>
+        </div>
+        <div id="steps">
+            <div>
+                <h3>Step 1: Folding Steps</h3>
+                <p>You will need to obtain one square piece of paper with sides at least 5 inches in length.</p>
+                <p class="warn">WARNING: When performing the folding steps, be careful of paper edge so as not to cut yourself.</p>
+                <p>1. Fold your paper in half, creating a crease down the middle vertically, then unfold.
+                    (Creating a crease makes future steps much simpler to perform since it can provide a reference point, as well as making future folds easier.)</p>
+                <p>2. Now fold your paper in half horizontally to create a crease, then unfold.</p>
+                <p>3. Fold the left side end of your paper towards the middle vertical crease.</p>
+                <p>4. Fold the top and bottom corner edges of your previous fold to align with its vertical edge.</p>
+                <p>5. From the left middle point, fold your fold from step 3 towards your horizontal middle crease.</p>
+                <p>6. Fold in half from your horizontal crease.</p>
+                <p>7. Starting from the folded triangle corner, pinpoint the spot where the triangle's corner meets the bottom edge, and perform a tuck-in fold at approximately a 30 degree angle.</p>
+                <p>8. Finally, fold your two top flaps downward to make the wings.</p>
+                <p>9. Proceed to throwing steps.</p>
 
-<div><button onclick="scrollerino('title')">Back to top</button></div>
+                <h3>Step 2: Throwing Steps</h3>
+                <p class="warn">WARNING: When performing throwing steps, be careful of the direction of the plane. It could potentially hit someone, especially in the eye.</p>
+                <p>1. Locate the spot on the bottom of the paper airplane where the most layers overlap. This is the center of gravity.</p>
+                <p>2. Hold the airplane by pinching lightly at the center of gravity with your index finger and thumb.</p>
+                <p>3. Keeping it level, release the airplane with a gentle, steady push.</p>
+                <p>4. Take note of the flight behavior and make adjustments where necessary to improve flight.</p>
+                <p>5. Return to step 2 until the optimal flight is achieved.</p>
+            </div>
+        </div>
+
+        <div id="conclusion">
+            <div>You are now ready to impress the world with your impeccable ability to create an amazing paper airplane that flies through the sky like a real airplane!</div>
+        </div>
+    </div>
+
+    <div>
+        <a href="#title"><button>Back to top</button></a>
+    </div>
 
 </div>
 </body>
-<script src="index.js"></script>
 </html>

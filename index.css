@@ -2,7 +2,7 @@ body {
     max-width: 100%;
     font-family: "Helvetica Neue", "Helvetica", sans-serif;
     text-align: center;
-    background-color: #333333;
+	background: radial-gradient(#333333,#232323, #141414, #000000);
     color: #FFF;
 }
 
@@ -23,9 +23,20 @@ h4{
 	font-style:initial;
 }
 
+h5{
+	text-align:left;
+	text-decoration:underline;
+	padding-left:55px;
+}
+
 div{
 	padding-top: 10px;
 	padding-bottom: 30px;
+}
+
+a{
+	color:lime;
+	text-decoration:underline;
 }
 
 p {
@@ -34,6 +45,7 @@ p {
     max-width: 75%;
     min-width: 800px;
 	text-align:left;
+	font-size: 13pt;
 }
 
 img {
@@ -52,13 +64,20 @@ img[src*="eyeWarning"]{
 
 #steps > div {
     margin: 10px;
-    background-color: #4d4d4d;
     border: 1px #4d4d4d;
     border-radius: 5px;
+	padding-bottom: 0px;
+	background: radial-gradient(#333333,#232323, #141414, #000000);
+}
+
+#intro{
+	font-size: 14pt;
+	font-family: Calibri;
 }
 
 #conclusion{
-	font-weight:bold;
+	font-size: 14pt;
+	font-family: Calibri;
 }
 
 #material {
@@ -67,15 +86,27 @@ img[src*="eyeWarning"]{
 	padding-top: 0px;
 }
 
+#cutoff{
+	text-align:center;
+}
+
 .warn::before {
-    content: "WARNING: ";
+    content: "WARNING ";
     color: #ff9933;
     font-weight: bolder;
     border-left: 5px solid #ff9933;
     padding-left: 3px;
 }
 
-.warn {
-    border-right: 5px dashed #ff9933;
+.warn{
 	text-align:center;
+	padding:0;
+}
+
+.warn::after{
+	content:" WARNING";
+	color: #ff9933;
+	font-weight:bolder;
+	border-right: 5px solid #ff9933;
+	padding-right:3px;
 }

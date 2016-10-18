@@ -24,9 +24,8 @@ h4{
 }
 
 h5{
-	text-align:left;
+	text-align:center;
 	text-decoration:underline;
-	padding-left:55px;
 }
 
 div{
@@ -44,7 +43,6 @@ p {
     padding: 10px 0 30px 0;
     max-width: 75%;
     min-width: 800px;
-	text-align:left;
 	font-size: 13pt;
 }
 
@@ -73,6 +71,8 @@ img[src*="eyeWarning"]{
 #intro{
 	font-size: 14pt;
 	font-family: Calibri;
+	padding-left:240px;
+	padding-right:240px;
 }
 
 #conclusion{
